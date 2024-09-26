@@ -1,6 +1,309 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.25.0] - 2024-08-13
+### Added
+- Manage Student Enrollments - Multiple students can be selected for withdrawal at once by pasting in
+a list of ID numbers.
+### Fixed
+- Advanced list favorites on Core Home don't show until the tiles load, in order to avoid breaking
+the page.
+
+## [2.24.1] - 2024-07-18
+### Changed
+- Minor changes to Injury Report template
+
+## [2.24.0] - 2024-07-09
+### Added
+- Lower School Injury Report Official Note Template
+
+## [2.23.3] - 2023-10-10
+### Fixed
+- Grade level display on profile pages is fixed. The new name pronunciation feature from Blackbaud had changed
+the structure of the page.
+- Page titles for profie pages were also broken because of the new name pronunciation feature. This is now fixed.
+
+## [2.23.2] - 2023-09-27
+### Added
+- Ability to select which profile page ID links on the Event Registration Process page open to.
+### Changed
+- Profile page options for Advanced List ID links have been updated to match the new Academics profile pages.
+
+## [2.23.1] - 2023-09-26
+### Changed
+- Blackbaud added date of birth to EMS process pages, so this feature now just calculates age and displays
+that next to the DoB.
+
+## [2.23.0] - 2023-09-26
+### Added
+- User IDs in Process (New) Event Registrations link to the user profile page.
+
+## [2.22.0] - 2023-09-22
+### Added
+- Print Student Assessment from the assessment evaluation tab.
+
+## [2.21.0]
+### Fixed
+- User Module Selector for Academics updated to the new Academics profile URL.
+- User Module links added to the new Academics profile page.
+- People Finder Quick Select now only uses number shortcuts to select from the results if non-numeric text has
+been entered in the search box. This allows user IDs to be entered into People Finder.
+- Salutation formulas were not properly detecting first names.
+### Changed
+- Feature [Show All Section Sizes] removed - implemented by Blackbaud.
+- Misc. unnecessary code and comments removed.
+
+
+## [2.20.1] - 2023-07-31
+### Fixed
+- Load school-specific settings more reliably.
+
+## [2.20.0] - 2023-07-31
+### Fixed
+- Select All on roster pages was causing the selected count to be one too many.
+
+### Changed
+- Email Selected Parents and Email Selected Students and Parents has been changed to use a different method
+for collecting parent email addresses, which does not require opening the relationships popup for each student.
+- Email Selected Classes has been changed to use a more reliable method for collecting email addresses, which
+does not require opening each class in the browser.
+- Email Selected Classes now copies the email addresses to the clipboard instead of launching 1 or more
+mailto links.
+- Facilities Request Form link now prefills the Name field on the form based on the logged in user.
+
+## [2.19.1] - 2023-07-26
+### Added
+- Shortcut to Facilities Request From added to calendar
+
+## [2.19.0] - 2023-07-05
+### Added
+- Course Request List Parent Emails - Get parent emails for listed students in the Student Course Request Worklist
+because at this time, not even Student ID can be added as a column to these lists, making it quite cumbersome
+to get parent email addresses.
+
+## [2.18.0] - 2023-05-24
+### Added
+- Gradebook Highlight Row - When enabled in settings, the cursor position in gradebooks will highlight
+the entire row instead of just the student name.
+
+## [2.17.0] - 2023-02-28
+### Added
+- Sort Needs Checklist process list by date (most recent at the top).
+
+## [2.16.0] - 2022-10-26
+### Fixed
+- Pushpage distribution group list box size.
+- WYSIWYG editor box default size and expand button fixed for new editor boxes.
+### Added
+- Display date of birth and age in Enrollment Management Process Applications and Needs Checklist
+
+## [2.15.2] - 2022-08-04
+### Fixed
+- Roster student count not identifying teachers.
+
+## [2.15.1] - 2022-04-20
+### Added
+- Financial Aid - Automatically set current date when selecting Financial Aid Forms Received.
+- Schedule & Performance - Add classes that aren't scheduled to the list so they can be selected for emailing.
+### Fixed
+- Inconsistent behavior with email delimiters.
+
+## [2.15.0] - 2021-12-15
+### Added
+- Load and view past grades when recording grades.
+
+## [2.14.3] - 2021-10-15
+### Changed
+- Dialer added to medical contact card and student headers.
+
+## [2.14.2] - 2021-10-01
+### Changed
+- Enabled dialer on Enrollment Management profile pages.
+
+## [2.14.1] - 2021-09-29
+### Fixed
+- Dialer not getting API address from settings page.
+
+## [2.14.0] - 2021-09-29
+### Added
+- Dialer for detected phone numbers on profile and roster pages. Uses school-specific phone system API.
+
+## [2.13.0] - 2021-09-14
+### Added
+- Medical visit email - create message in default email client with medical visit info. Works with new and existing visits.
+
+## [2.12.6] - 2021-08-19
+### Added
+- Email Administrators (LS) option added to Send Communication window
+
+## [2.12.5] - 2021-05-24
+### Fixed
+- Gradebook link on assignments page fixed by Blackbaud, so this script caused a broken link.
+
+## [2.12.4] - 2021-05-13
+### Fixed
+- WYSIWYG editor expand not working
+
+## [2.12.3] - 2021-05-10
+### Fixed
+- Assignment date filter element class changed.
+- Master Schedule - Edit Cycle possibly affected by page number navigation.
+
+## [2.12.2] - 2021-01-20
+### Added
+- Directory results Options menu includes a link to medical page.
+
+## [2.12.1] - 2021-01-07
+### Added
+- Attendance shortcut to set all students to Virtual-Present.
+
+## [2.12.0] - 2020-12-02
+### Added
+- When viewing a user profile page in Core, Academics, or Enrollment Management, set the page title in the browser
+to include the name and tab you're on, so you can actually use the browser history to see and navigate where you've been.
+
+## [2.11.0] - 2020-11-02
+### Added
+- Gradebook link from the new class assignments page now opens in a new window like it does everywhere else.
+
+## [2.10.2] - 2020-11-02
+### Added
+- Fix position of classes menu, which goes off screen when very large.
+
+## [2.10.1] - 2020-10-07
+### Fixed
+- Impersonation changes not working properly before recent impersonations have been saved.
+
+## [2.10.0] - 2020-10-07
+### Added
+- Impersonation Recent & Pinned
+
+### Fixed
+- Misc minor issues
+
+## [2.9.3] - 2020-05-04
+### Fixed
+- Community group roster Send Communication button missing.
+
+## [2.9.2] - 2020-04-22
+### Fixed
+- Word count not working when discussion posts contain certain HTML formatting.
+
+## [2.9.1] - 2020-04-07
+### Fixed
+- Stop showing word count for discussion message (topic)
+
+## [2.9.0] - 2020-04-07
+### Added
+- Discussion Word Count
+
+## [2.8.0] - 2020-04-03
+### Added
+- Fix blank page when first opening a group from Group Finder.
+- Email Delimiter Default - If you change the delimiter option in the Send Communication screen, the script remembers your
+choice and automatically loads it next time.
+### Changed
+- Advanced List shareable link now copies to clipbord when clicking on it. No need to right-click and copy as link anymore.
+### Fixed
+- Remove duplicate Send Communication menu from roster pages.
+- Classes Menu Sort Order works with multiple columns now.
+- Increase Distribution Group Listbox Size was reverting to small size after adding a list that required a User Base
+selection
+
+## [2.7.0] - 2020-03-24
+### Added
+- Show All Section Sizes: When editing student enrollments, click a button to show section sizes on the grid next to
+each section number.
+
+## [2.6.1] - 2020-03-24
+### Changed
+- Manual Attendance Sheet - script removes Blackbaud's menu option because it still requires the user to select the class
+and teacher.
+
+## [2.6.0] - 2020-03-05
+### Added
+- Math Year Averages: From Schedule & Performance gradebooks list, click the link to get full year averages (combining
+A/B classes) for the students
+### Changed
+- The first time the script is run after being updated, the script Settings page will open in a new tab as a notification,
+but also more importantly to load school-specific settings from that page.
+### Fixed
+- Settings page wouldn't load if the user doesn't have access to the Faculty module.
+
+## [2.5.1] - 2020-03-04
+### Fixed
+- Convert grad year to grade level was not working for roster cards dynamically loaded when scrolling down in long rosters
+
+## [2.5.0] - 2019-12-09
+### Added
+- Pushpage Distribution Lists: Add user IDs and the ability to open contact cards to static user search,
+so that when there are users with the same last name, you can select the appropriate one more easily.
+
+## [2.4.2] - 2019-12-02
+### Fixed
+- Assignments default was causing list to reload many times unnecessarily.
+
+## [2.4.1] - 2019-11-26
+### Changed
+- Increased delay (from 0.5 to 1.5 seconds) between launching multiple mailto links.  If too fast, browser will not
+open them.
+### Added
+- "Change Default" link for assignment date filter added so teachers know that that's a thing.
+
+## [2.4.0] - 2019-11-06
+### Added
+- Class Assignments Default Date Filter
+
+## [2.3.2] - 2019-10-23
+### Fixed
+- Sending to large groups of email addresses wouldn't open message windows after the first one.
+
+## [2.3.1] - 2019-10-22
+### Added
+- On student medical profile, clicking on the Admissions Immunizations Requirements header to collapse the
+section collapses the Forms section instead because sections use the same element ID.  New function gives the
+immunizations section a unique ID, so it can be collapsed like the others.
+
+## [2.3.0] - 2019-09-19
+### Added
+- Increase sizes of grades checkboxes in Enter Grades by Class and Faculty Record Grades
+### Changed
+- Official Notes Unread At Top feature removed. Blackbaud's 9/18/19 update added a native Unread filter option.
+
+## [2.2.2] - 2019-08-20
+### Fixed
+- Class rosters not included in previous fix for dynamically loaded students (only activity and community rosters were).
+
+## [2.2.1] - 2019-08-20
+### Fixed
+- Roster student select not creating checkboxes for all students because some student cards are loaded dynamically (upon
+scrolling down) for large rosters.
+### Changed
+- Roster student count now identifies teachers vs. students by looking for the View Relationships option in the roster
+card menu.
+- Roster student select now creates checkboxes for students who are group owners or activity leaders.
+### Added
+- Roster student select enabled for community groups.
+
+## [2.2.0] - 2019-08-14
+### Fixed
+- Highlight Invalid Attendance not identifying new HRK5 block as a Homeroom block.
+### Added
+- Advanced List links can be copied and shared with other users.  Recipient must be running the script in order for
+the link to work and run the corresponding list.
+
+## [2.1.1] - 2019-08-12
+### Fixed
+- Advanced list favorites broken for list IDs with 6 or more digits.
+### Added
+- Advanced list IDs displayed on list of lists.
+
+## [2.1.0] - 2019-08-08
+### Added
+- Highlight Row on Hover
+- Manage Student Enrollment Keyboard Shortcuts
+- Advanced List Role Access Keyboard Shortcuts
+
 ## [2.0.2] - 2019-08-02
 ### Changed
 - Salutation formulas updated to reflect upcoming policy changes (and instead of &; informal salutation to use
